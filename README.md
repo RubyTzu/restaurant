@@ -3,6 +3,28 @@
 # Restaurant List
 A simple web application of my restaurant collection
 
+## Project setup
+- Install node.js
+- Install npm
+- Clone the repository to your local computer
+- Open up the repository and type the following code in the terminal: 
+```
+npm install
+```
+- Once installed, go ahead and type:
+```
+npm run dev
+```
+- If you see the following sentence, it means that it is running smoothly. Open the browser and enter the following URL
+```
+Express listening on http://localhost:3000
+```
+-If you want to exit from the Node console, type the following code:
+```
+ctrl + c
+```
+
+
 ## Features
 - Include express from node.js module
 - Using handlebars for view engine
