@@ -1,0 +1,131 @@
+header {
+    overflow: hidden;
+}
+
+.navbar .navbar-brand {
+    color: #10238f;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1px;
+    transition: 300ms;
+}
+
+.navbar .navbar-brand:hover {
+    color: #a5adc7;
+}
+
+.banner {
+    position: relative;
+    z-index: -1;
+    margin: -5px;
+    height: 250px;
+    background: #ffffff center center url('https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5720/restaurants-list-cover.jpg');
+    background-size: cover;
+    filter: blur(3px);
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 15, 88, 0.921);
+}
+
+.search-bar .search-bar-outer {
+    margin: 0 auto 150px;
+    max-width: 680px;
+    background-color: #e1e3f400;
+    border-radius: 8px;
+    padding: 20px 30px;
+    border: 0;
+    margin-top: -160px;
+}
+
+.search-bar .search-bar-inner h4 {
+    color: #ffffff;
+    width: 180px;
+    letter-spacing: 1px;
+}
+
+.form-control::placeholder {
+    color: #aaaaaa;
+    font-size: 0.8rem;
+}
+
+.btn-major {
+    background-color: rgb(255, 255, 255);
+    color: #10238f;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.card {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #10238f;
+}
+
+.restaurant-category {
+    color: #10238f;
+    font-size: 0.8rem;
+}
+
+.restaurant-show-title {
+    position: relative;
+    top: -100px;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rating-stars {
+    background-color: #10238f;
+}
+
+@media screen and (max-width: 992px) {
+
+    .card img {
+        height: 115px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .search-bar .search-bar-inner h4 {
+        display: none;
+    }
+
+    .restaurant-show-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .search-bar .search-bar-inner h4 {
+        display: none;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+}
