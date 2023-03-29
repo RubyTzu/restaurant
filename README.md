@@ -19,7 +19,7 @@ npm run dev
 ```
 Express listening on http://localhost:3000
 ```
--If you want to exit from the Node console, type the following code:
+- If you want to exit from the Node console, type the following code:
 ```
 ctrl + c
 ```
