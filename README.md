@@ -1,3 +1,5 @@
+![My Image](/images/cover.png)
+
 # Restaurant List
 A simple web application of my restaurant collection
 
