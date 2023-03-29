@@ -1,4 +1,4 @@
-![My Image](public/images/cover.png)
+![My Image](public/images/cover_final.png)
 
 # Restaurant List
 A simple web application of my restaurant collection
