@@ -4,13 +4,13 @@ A simple web application of my restaurant collection
 ## Features
 - Include express from node.js module
 - Using handlebars for view engine
-- listing restaurant list from restaurant.json
-- searching restaurant by title or category
-- click restaurant card and open a new page for more information
+- Listing restaurant list from restaurant.json
+- Searching restaurant by title or category
+- Click restaurant card and open a new page for more information
 
 
 ### Searching
-type the title or category of the restaurant in search bar
+Type the title or category of the restaurant in search bar
 
 ### Show restaurant details
 In index page, press the restaurant card,
